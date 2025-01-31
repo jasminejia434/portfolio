@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "homelessness_policy.html",
+    "href": "homelessness_policy.html",
+    "title": "A Multidimensional Study on the Determinants of Homelessness in Urban America",
+    "section": "",
+    "text": "This study examines the socio-economic and housing-related factors influencing homelessness across urban areas in the United States. Using Point-in-Time (PIT) Count and Housing Inventory Count (HIC) data, combined with economic indicators from the U.S. Census Bureau and Bureau of Labor Statistics, the analysis identifies how income levels, unemployment rates, housing affordability, and racial demographics impact homelessness rates."
+  },
+  {
+    "objectID": "homelessness_policy.html#overview",
+    "href": "homelessness_policy.html#overview",
+    "title": "A Multidimensional Study on the Determinants of Homelessness in Urban America",
+    "section": "",
+    "text": "This study examines the socio-economic and housing-related factors influencing homelessness across urban areas in the United States. Using Point-in-Time (PIT) Count and Housing Inventory Count (HIC) data, combined with economic indicators from the U.S. Census Bureau and Bureau of Labor Statistics, the analysis identifies how income levels, unemployment rates, housing affordability, and racial demographics impact homelessness rates."
+  },
+  {
+    "objectID": "homelessness_policy.html#methodology",
+    "href": "homelessness_policy.html#methodology",
+    "title": "A Multidimensional Study on the Determinants of Homelessness in Urban America",
+    "section": "Methodology",
+    "text": "Methodology\nThis study employs a multi-faceted analytical approach, integrating traditional econometric methods with machine learning techniques to enhance predictive accuracy. Data sources include federal homelessness counts, economic indicators, and housing statistics, allowing for a comprehensive evaluation of the determinants of homelessness in urban settings.\nThe analysis begins with Linear Regression as a baseline model to establish fundamental relationships between key socio-economic factors and homelessness rates. However, homelessness is a highly complex and non-linear issue, which necessitates more sophisticated predictive modeling. To address this, the study employs Random Forest Regression and Gradient Boosting Machines (GBM), which are tree-based machine learning models capable of detecting complex interactions between variables.\nTo ensure the validity and robustness of the results, cross-validation techniques were applied to prevent overfitting, and feature importance scores were analyzed to determine the most influential variables affecting homelessness rates. The final models were evaluated using R² scores and Mean Squared Error (MSE) to assess their predictive performance."
+  },
+  {
+    "objectID": "homelessness_policy.html#key-findings",
+    "href": "homelessness_policy.html#key-findings",
+    "title": "A Multidimensional Study on the Determinants of Homelessness in Urban America",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nEconomic instability is a major driver of homelessness. Low median household income and high unemployment rates strongly correlate with higher homelessness rates.\n\nHousing affordability remains a key barrier. Areas with high median home values tend to have higher rates of homelessness, reinforcing the need for more affordable housing options.\n\nSupportive housing resources have a significant impact. Regions with greater availability of permanent supportive housing tend to have lower homelessness rates, indicating that housing-first approaches are effective.\n\nRacial disparities persist in homelessness trends. Black populations are disproportionately affecte, underscoring the need for policies that address systemic inequities in housing access.\n\nMachine learning outperforms traditional models. Random Forest and GBM models provided more accurate predictions and uncovered complex relationships that were not detectable with linear regression."
+  },
+  {
+    "objectID": "homelessness_policy.html#policy-implications",
+    "href": "homelessness_policy.html#policy-implications",
+    "title": "A Multidimensional Study on the Determinants of Homelessness in Urban America",
+    "section": "Policy Implications",
+    "text": "Policy Implications\nAddressing homelessness effectively requires a comprehensive and multi-pronged policy approach. Based on the findings of this study, policymakers should consider the following interventions:\n\nExpand permanent supportive housing programs. Increased investment in long-term housing solutions has been shown to reduce homelessness rates and improve housing stability.\n\nImplement economic support initiatives. Programs focused on job training, wage subsidies, and rental assistance can help prevent homelessness by increasing economic security for at-risk individuals.\n\nAddress systemic racial disparities in housing. Targeted anti-discrimination policies and equitable urban planning are necessary to mitigate the disproportionate impact of homelessness on marginalized communities.\n\nEnhance data collection and real-time tracking. Integrating real-time homelessness tracking systems with machine learning-driven predictive modeling can improve early intervention efforts and allow for more adaptive policymaking.\n\nView the Presentation Slides\nView the Full Report\nView the Code"
+  },
+  {
+    "objectID": "in_progress.html",
+    "href": "in_progress.html",
+    "title": "Paper and Project in Progress",
+    "section": "",
+    "text": "White Paper: “Tax Policy and Racial Inequality - Policy Issues Among Families with Low Income” with Robert Wood Johnson Foundation\nProject: “What Determines Selective Enforcement? An Analysis of Race and Police Stops” with Massive Data Institute in collbaration with Georgetown Law Criminal Justice Clinic"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "RD_education_policy.html",
+    "href": "RD_education_policy.html",
+    "title": "The Long-Term Impact of Compulsory Schooling: Evidence from a Regression Discontinuity Design",
+    "section": "",
+    "text": "This study investigates the causal effects of compulsory schooling requirements on long-term outcomes, including educational attainment, earnings, marital status, and parental status. Using a Regression Discontinuity Design (RDD), the analysis leverages a policy change implemented on September 1, 1951, which required students to remain in school until at least age 16.\nBy examining the impact of this natural experiment, the findings provide policy-relevant insights into the long-term benefits of extending compulsory education, informing decisions on public investment in education, labor market policies, and social mobility initiatives."
+  },
+  {
+    "objectID": "RD_education_policy.html#overview",
+    "href": "RD_education_policy.html#overview",
+    "title": "The Long-Term Impact of Compulsory Schooling: Evidence from a Regression Discontinuity Design",
+    "section": "",
+    "text": "This study investigates the causal effects of compulsory schooling requirements on long-term outcomes, including educational attainment, earnings, marital status, and parental status. Using a Regression Discontinuity Design (RDD), the analysis leverages a policy change implemented on September 1, 1951, which required students to remain in school until at least age 16.\nBy examining the impact of this natural experiment, the findings provide policy-relevant insights into the long-term benefits of extending compulsory education, informing decisions on public investment in education, labor market policies, and social mobility initiatives."
+  },
+  {
+    "objectID": "RD_education_policy.html#methodology",
+    "href": "RD_education_policy.html#methodology",
+    "title": "The Long-Term Impact of Compulsory Schooling: Evidence from a Regression Discontinuity Design",
+    "section": "Methodology",
+    "text": "Methodology\nRegression Discontinuity Design (RDD) → Fuzzy RDD approach leveraging the 1951 compulsory schooling reform.\nInstrumental Variables (IV) → Using policy cutoff birthdate to estimate exogenous effects of additional schooling."
+  },
+  {
+    "objectID": "RD_education_policy.html#key-findings",
+    "href": "RD_education_policy.html#key-findings",
+    "title": "The Long-Term Impact of Compulsory Schooling: Evidence from a Regression Discontinuity Design",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nHigher educational attainment leads to increased earnings. Individuals who remained in school due to the policy experienced a 13.4% increase in earnings at age 45.\n\nCompulsory schooling impacts marriage rates. Those who stayed in school were 15.4% more likely to be married at age 45.\n\nSchooling influences family formation. Individuals who completed compulsory schooling were 19.4% more likely to have children by age 45.\n\nThe Regression Discontinuity Design (RDD) is validated. A strong first-stage relationship confirms that the policy effectively increased schooling years, passing the inclusion condition for IV estimation.\n\nPermutation testing confirms robustness.Simulated treatment assignments centered on zero, while the observed effect of schooling remained statistically significant, ruling out random chance."
+  },
+  {
+    "objectID": "RD_education_policy.html#policy-implications",
+    "href": "RD_education_policy.html#policy-implications",
+    "title": "The Long-Term Impact of Compulsory Schooling: Evidence from a Regression Discontinuity Design",
+    "section": "Policy Implications",
+    "text": "Policy Implications\nEconomic Returns to Education → Justifies public investment in education based on measurable increases in earnings.\nSocial and Demographic Impact → Schooling affects family formation trends, influencing housing, welfare, and healthcare policies*\nReducing Inequality → Ensuring equal access to education promotes social mobility and reduces long-term disparities\n📄 View the Presentation Slides:\nRD_Presentation\n📄 View the Full Rerport:\nRD_report\n📄 View the Code:\nRD_code\n."
+  },
+  {
+    "objectID": "showcase.html",
+    "href": "showcase.html",
+    "title": "Agricultural Pesticide Use and Effects on Migrant Farmworker’s Health",
+    "section": "",
+    "text": "This study, conducted by MDI Scholars in collaboration with the Lawyers’ Committee for Civil Rights Under Law, investigates the health risks faced by non-U.S. citizen farmworkers, particularly their exposure to glyphosate (a widely used pesticide) and its potential link to non-Hodgkin’s Lymphoma (NHL). Many migrant and undocumented farmworkers were previously excluded from legal settlements addressing the harms of pesticide exposure. The research aims to identify counties with high concentrations of these farmworkers and elevated NHL rates, providing a data-driven foundation for targeted outreach and legal support.\n\nmore information can be found here"
+  },
+  {
+    "objectID": "showcase.html#overview",
+    "href": "showcase.html#overview",
+    "title": "Agricultural Pesticide Use and Effects on Migrant Farmworker’s Health",
+    "section": "",
+    "text": "This study, conducted by MDI Scholars in collaboration with the Lawyers’ Committee for Civil Rights Under Law, investigates the health risks faced by non-U.S. citizen farmworkers, particularly their exposure to glyphosate (a widely used pesticide) and its potential link to non-Hodgkin’s Lymphoma (NHL). Many migrant and undocumented farmworkers were previously excluded from legal settlements addressing the harms of pesticide exposure. The research aims to identify counties with high concentrations of these farmworkers and elevated NHL rates, providing a data-driven foundation for targeted outreach and legal support.\n\nmore information can be found here"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Jasmine Jia’s Portfolio",
+    "section": "",
+    "text": "👋 Hello! I’m Jasmine Jia, a data scientist and policy researcher dedicated to using data science and quantitative analysis to address complex social and policy challenges.\nI am currently pursuing an M.S. in Data Science for Public Policy at the McCourt School of Public Policy, Georgetown University, with an expected graduation in May 2025. I hold a B.S. in Economics and Applied Statistics from the University of Michigan - Ann Arbor.\nMy expertise lies in machine learning, statistical modeling, and policy analysis, applying R, Python, SQL, and AWS Cloud computing to extract meaningful insights from data and drive evidence-based decision-making in public policy.\nThis portfolio showcases my research, projects, and publications, demonstrating my ability to apply data-driven approaches to real-world policy issues.\n📄 View and Download My Resume (PDF):\n📥 Jasmine Jia’s Resume\n\n💼 Connect on LinkedIn | 📊 GitHub"
+  },
+  {
+    "objectID": "network_analysis.html",
+    "href": "network_analysis.html",
+    "title": "Healthcare Network Analysis - Analyzing Provider Network Structures and Price Transparency",
+    "section": "",
+    "text": "This project explores provider network structures and price transparency in healthcare, focusing on the relationships between providers, networks, and healthcare costs. Using graph theory, network analysis, and machine learning, the study identifies key patterns in provider affiliations, network fragmentation, and pricing disparities across different regions and provider types."
+  },
+  {
+    "objectID": "network_analysis.html#overview",
+    "href": "network_analysis.html#overview",
+    "title": "Healthcare Network Analysis - Analyzing Provider Network Structures and Price Transparency",
+    "section": "",
+    "text": "This project explores provider network structures and price transparency in healthcare, focusing on the relationships between providers, networks, and healthcare costs. Using graph theory, network analysis, and machine learning, the study identifies key patterns in provider affiliations, network fragmentation, and pricing disparities across different regions and provider types."
+  },
+  {
+    "objectID": "network_analysis.html#methodology",
+    "href": "network_analysis.html#methodology",
+    "title": "Healthcare Network Analysis - Analyzing Provider Network Structures and Price Transparency",
+    "section": "Methodology",
+    "text": "Methodology\nNetwork Analysis → Constructing provider affiliation networks using National Provider Identifier (NPI) and Tax Identification Number (TIN) connections.\nGraph Theory & Centrality Measures → Identifying highly connected providers and key influencers in the network*\nPrice Transparency Analysis → Analyzing variations in healthcare costs and reimbursement rates across different provider networks."
+  },
+  {
+    "objectID": "network_analysis.html#key-findings",
+    "href": "network_analysis.html#key-findings",
+    "title": "Healthcare Network Analysis - Analyzing Provider Network Structures and Price Transparency",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nHighly centralized providers play a significant role in negotiating reimbursement rates, leading to *ricing disparities in certain healthcare markets.\n\nNetwork fragmentation in certain regions results in restricted patient access and higher costs for out-of-network care.\n\nMachine learning clustering techniques reveal distinct patterns in provider group pricing, helping to identify potential pricing inefficiencies and monopolistic behaviors."
+  },
+  {
+    "objectID": "network_analysis.html#policy-industry-implications",
+    "href": "network_analysis.html#policy-industry-implications",
+    "title": "Healthcare Network Analysis - Analyzing Provider Network Structures and Price Transparency",
+    "section": "Policy & Industry Implications",
+    "text": "Policy & Industry Implications\nHealthcare Access & Pricing → Understanding network fragmentation can inform policy interventions** to increase price transparency and affordability.\nHospital & Insurer Negotiations** → Insights from centrality analysis can help regulators and stakeholders evaluate provider market power.\nVisit the GIS Project Website\n\nFull Code & Data Analysis: View Here"
+  },
+  {
+    "objectID": "gis_project.html",
+    "href": "gis_project.html",
+    "title": "GIS Project: Greenspace Accessibility and Socioeconomic Inequality in Urban Areas",
+    "section": "",
+    "text": "This study investigates the relationship between greenspace accessibility and socioeconomic inequality in urban areas, focusing on Washington, D.C. Using geospatial and econometric analyses, the project examines how income levels and poverty rates influence access to urban greenspaces such as parks and recreation areas. The findings provide insights into spatial disparities in greenspace distribution and their implications for environmental justice and urban planning."
+  },
+  {
+    "objectID": "gis_project.html#overview",
+    "href": "gis_project.html#overview",
+    "title": "GIS Project: Greenspace Accessibility and Socioeconomic Inequality in Urban Areas",
+    "section": "",
+    "text": "This study investigates the relationship between greenspace accessibility and socioeconomic inequality in urban areas, focusing on Washington, D.C. Using geospatial and econometric analyses, the project examines how income levels and poverty rates influence access to urban greenspaces such as parks and recreation areas. The findings provide insights into spatial disparities in greenspace distribution and their implications for environmental justice and urban planning."
+  },
+  {
+    "objectID": "gis_project.html#methodology",
+    "href": "gis_project.html#methodology",
+    "title": "GIS Project: Greenspace Accessibility and Socioeconomic Inequality in Urban Areas",
+    "section": "Methodology",
+    "text": "Methodology\nStatistical and Spatial Analysis → Regression models to analyze the impact of income and poverty rates on greenspace availability.\nGIS & Spatial Accessibility → Measuring proximity to parks using centroid-based distance calculations.\nHypothesis Testing → Moran’s I and Monte Carlo simulations to test for spatial clustering of greenspace inequality."
+  },
+  {
+    "objectID": "gis_project.html#key-findings",
+    "href": "gis_project.html#key-findings",
+    "title": "GIS Project: Greenspace Accessibility and Socioeconomic Inequality in Urban Areas",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nWealthier neighborhoods tend to have larger and higher-quality green spaces, while lower-income communities often have limited access to greenspace.\n\nPoverty rate and greenspace percentage show an unexpected positive correlation, suggesting that some low-income areas have green spaces, but accessibility and usability may still be limited depending on the districts.\n\nSpatial clustering of poverty rates indicates systemic inequities in urban planning, with disadvantaged communities facing higher barriers to greenspace access.\n\nLocal Moran’s I analysis confirms significant spatial autocorrelation, meaning poverty and greenspace disparities are not randomly distributed but concentrated in specific neighborhoods.\n\nExplore My GIS Project:\nVisit the GIS Project Website\n\nRead the code and documentation on my Github"
+  }
+]
