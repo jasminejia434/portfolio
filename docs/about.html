@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jasmine Jia, MS Data Science for Public Policy, 2025">
 
-<title>About – Ziwen (Jasmine) Jia’s Website</title>
+<title>What Determines Selective Enforcement? An Analysis of Race and Police Stops – Ziwen (Jasmine) Jia’s Website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -135,6 +102,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="dropdown-text">GIS Spatial Regression on Urban Greenspace</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="./adaptive.html">
+ <span class="dropdown-text">Computerized Adaptive Testing ADHD Assessment</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./network_analysis.html">
  <span class="dropdown-text">Healthcare Data Network Analysis</span></a>
   </li>  
@@ -158,6 +129,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="dropdown-text">Farmworker Pesticide Exposure &amp; Health Risks</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">What Determines Selective Enforcement?</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./in_progress.html">
  <span class="dropdown-text">Paper and Project in Progress</span></a>
   </li>  
@@ -174,21 +149,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"><img src="_MDIScholars_Jia_ResearchPosterSpring2025.png" class="img-fluid"></a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key Findings</a></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
+  <li><a href="#ethical-considerations" id="toc-ethical-considerations" class="nav-link" data-scroll-target="#ethical-considerations">Ethical Considerations</a></li>
+  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">What Determines Selective Enforcement? An Analysis of Race and Police Stops</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jasmine Jia, MS Data Science for Public Policy, 2025 </p>
+          </div>
+  </div>
     
   
     
@@ -199,15 +192,47 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>About this site</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"><img src="_MDIScholars_Jia_ResearchPosterSpring2025.png" class="img-fluid"></h2>
+</section>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This research investigates racial disparities in police stops in Washington, D.C., with a focus on identifying potential patterns of selective enforcement against racial minorities. Using <strong>statistical analysis and data visualization</strong>, the project examines how <strong>race and stop type</strong> influence outcomes including searches, arrests, and contraband recovery. The findings provide insights into enforcement disparities and their implications for evidence-based policy discussions and equitable approaches to policing in the nation’s capital.</p>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<p><strong>Descriptive Statistics</strong> → Cross-tabulations of stop reasons, enforcement outcomes, and contraband recovery by race, age, and gender, as well as observed hit rates and search disparities across police districts.<br>
+<strong>Inferential Analysis</strong> → Logistic regressions for binary outcomes (arrest, search, warning, citation) and OLS regressions for continuous outcomes (hit and search rates).<br>
+<strong>Control Variables</strong> → Models adjust for individual characteristics (age, gender) and district-level arrest rates, including fixed effects for stop year, month, and district.<br>
+<strong>Stratified Analysis</strong> → Results stratified by stop type—proactive versus investigative—with focused examination of marijuana-related stops.</p>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key Findings</h2>
+<ul>
+<li><p>Racial search disparities are <strong>statistically significant and persistent</strong> across both investigative and proactive stops, with Black individuals searched at higher rates than White individuals even after adjusting for population size.</p></li>
+<li><p>Black individuals face the highest search rates in both investigative and drug-related stops, but not in marijuana-specific stops, with <strong>narrow margin of error bars</strong> indicating consistent racial disparities in policing practices.</p></li>
+<li><p>Black individuals experience <strong>statistically significant higher search and arrest rates</strong> than White individuals in both investigative and proactive stops, shown through regression coefficient analysis.</p></li>
+<li><p>Search rates are highest for Black individuals, yet hit rates remain similar across groups, suggesting <strong>disproportionate searches without added public safety benefit</strong> and potential inefficiency in resource allocation.</p></li>
+</ul>
+</section>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
+<p>Small sample size for stops related to marijuana charges, specifically for public consumption, which <strong>limits statistical power</strong> and reduces confidence in marijuana-specific findings.<br>
+Lack of geographic detail from the public dataset prevents <strong>neighborhood-level analysis</strong> of disparities across smaller spatial units within districts.<br>
+Limited ability to determine officer intent or situational factors influencing decisions, which constrains <strong>causal interpretation</strong> of observed patterns.</p>
+</section>
+<section id="ethical-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="ethical-considerations">Ethical Considerations</h2>
+<p>This research navigates complex ethical terrain, recognizing the <strong>limitations of statistical analyses</strong> in establishing intent while identifying potential biases in policing. Our findings aim to inform policy discussions rather than making definitive claims about discriminatory practices, acknowledging the complex factors underlying observed disparities.</p>
+</section>
+<section id="future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="future-directions">Future Directions</h2>
+<p>Incorporate spatial lag and error models to identify <strong>geographic clustering of racial disparities</strong> and assess spatial dependence across districts.<br>
+Apply difference-in-differences and event study designs to examine how disparities shift following <strong>major policy changes or external shocks</strong>.<br>
+Use predictive modeling to detect unexplained racial gaps, enabling <strong>real-time disparity audits and bias detection</strong> through machine learning approaches.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

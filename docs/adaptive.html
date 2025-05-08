@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jasmine Jia">
 
-<title>Agricultural Pesticide Use and Effects on Migrant Farmworker’s Health – Ziwen (Jasmine) Jia's Website</title>
+<title>Development of an ADHD Assessment System Using Computerized Adaptive Testing – Ziwen (Jasmine) Jia’s Website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -154,6 +155,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key Findings</a></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
+  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a></li>
   </ul>
 </nav>
     </div>
@@ -162,13 +167,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Agricultural Pesticide Use and Effects on Migrant Farmworker’s Health</h1>
+<h1 class="title">Development of an ADHD Assessment System Using Computerized Adaptive Testing</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jasmine Jia </p>
+          </div>
+  </div>
     
   
     
@@ -181,9 +192,38 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This study, conducted by MDI Scholars in collaboration with the Lawyers’ Committee for Civil Rights Under Law, investigates the health risks faced by non-U.S. citizen farmworkers, particularly their exposure to glyphosate (a widely used pesticide) and its potential link to non-Hodgkin’s Lymphoma (NHL). Many migrant and undocumented farmworkers were previously excluded from legal settlements addressing the harms of pesticide exposure. The research aims to identify counties with high concentrations of these farmworkers and elevated NHL rates, providing a data-driven foundation for targeted outreach and legal support.</p>
-<p><img src="showcase.png" class="img-fluid"></p>
-<p><a href="https://mdi.georgetown.edu/events/showcase-fall2024/">more information can be found here</a></p>
+<p>This project develops a comprehensive Computerized Adaptive Testing (CAT) system for assessing Attention-Deficit/Hyperactivity Disorder (ADHD) symptoms in adults. Using <strong>Item Response Theory (IRT)</strong> and <strong>adaptive testing algorithms</strong>, we created an assessment tool that reduces testing time by <strong>70-80%</strong> while maintaining high measurement precision. Our approach effectively addresses limitations of conventional ADHD assessments, particularly <strong>respondent fatigue</strong> and <strong>diminished engagement</strong>, which are especially relevant when assessing attention-related disorders.</p>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<p><strong>Item Pool Development</strong> → Creation of 30 ADHD assessment items stratified across three distinct difficulty levels (10 easy, 10 medium, 10 difficult) to provide optimal measurement across the symptom spectrum.<br>
+<strong>Response Data Simulation</strong> → Generation of 500 synthetic respondent profiles with latent trait values (theta) drawn from a standard normal distribution using the 2-Parameter Logistic (2PL) model.<br>
+<strong>Theta Estimation</strong> → Implementation of Expected a Posteriori (EAP) estimation method that combines the likelihood of observed response patterns with prior distribution to compute posterior theta estimates.<br>
+<strong>Stopping Rules</strong> → Development of a three-criteria system including minimum test length (5 items), maximum test length (10 items), and precision threshold (SE &lt; 0.3) for reliability coefficient of approximately 0.91.</p>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key Findings</h2>
+<p>The CAT system demonstrates an average test length of <strong>precisely 6 items</strong> across representative respondents, representing an impressive <strong>80% reduction</strong> from the complete 30-item pool.<br>
+The substantial reduction in test length directly translates to approximately <strong>8-10 minutes of time saved</strong> per assessment administration, benefiting both time-constrained clinical applications and large-scale research implementations.<br>
+Standard errors achieved by the CAT system are <strong>consistently comparable</strong> to what would be expected from administering the full-length assessment, demonstrating that the adaptive approach enhances measurement precision through <strong>optimal item targeting</strong>.<br>
+The system effectively balances efficiency and accuracy across a wide range of symptom levels, with <strong>high measurement precision</strong> maintained throughout the assessment process.</p>
+</section>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
+<p>The use of binary scoring (0/1) instead of the full Likert scale (1-5) for IRT calibration presents <strong>information loss</strong> regarding symptom intensity and frequency that would have been captured by the full rating scale.<br>
+The study utilized <strong>simulated data</strong> rather than real clinical data for model development and validation, potentially failing to capture important real-world factors such as comorbidities and cultural differences.<br>
+No <strong>exposure control</strong> was implemented to prevent overuse of certain items, which may lead to testing fatigue, practice effects, or compromising test security over repeated administrations.</p>
+</section>
+<section id="future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="future-directions">Future Directions</h2>
+<p>Implementation of <strong>Graded Response Model (GRM)</strong> to more accurately capture the full spectrum of ADHD by utilizing the complete Likert scale (1-5), allowing for better discrimination between different levels of symptom severity.<br>
+Development of <strong>differentiated simulation for ADHD subtypes</strong> (inattentive, hyperactive/impulsive, and combined presentations) to better capture distinct symptom categories and enable more targeted assessment.<br>
+Integration of the <strong>Sympson-Hetter method</strong> for controlling item exposure rates, a probabilistic approach that would prevent overexposure of certain items while maintaining measurement precision.</p>
+<p><strong>Explore Our ADHD Assessment System:</strong><br>
+<a href="https://jasminejia434.shinyapps.io/File/">Experience the Interactive CAT System</a><br>
+</p>
+<iframe src="https://jasminejia434.shinyapps.io/File/" width="100%" height="600px"></iframe>
+<p><a href="https://yuhanma.shinyapps.io/Computerized_Adaptive_Testing_ADHD/">View Alternative Implementation of CAT System</a></p>
 
 
 </section>

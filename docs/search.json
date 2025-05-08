@@ -42,11 +42,67 @@
     "text": "White Paper: “Tax Policy and Racial Inequality - Policy Issues Among Families with Low Income” with Robert Wood Johnson Foundation\nProject: “What Determines Selective Enforcement? An Analysis of Race and Police Stops” with Massive Data Institute in collbaration with Georgetown Law Criminal Justice Clinic"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "about.html#overview",
+    "href": "about.html#overview",
+    "title": "What Determines Selective Enforcement? An Analysis of Race and Police Stops",
+    "section": "Overview",
+    "text": "Overview\nThis research investigates racial disparities in police stops in Washington, D.C., with a focus on identifying potential patterns of selective enforcement against racial minorities. Using statistical analysis and data visualization, the project examines how race and stop type influence outcomes including searches, arrests, and contraband recovery. The findings provide insights into enforcement disparities and their implications for evidence-based policy discussions and equitable approaches to policing in the nation’s capital."
+  },
+  {
+    "objectID": "about.html#methodology",
+    "href": "about.html#methodology",
+    "title": "What Determines Selective Enforcement? An Analysis of Race and Police Stops",
+    "section": "Methodology",
+    "text": "Methodology\nDescriptive Statistics → Cross-tabulations of stop reasons, enforcement outcomes, and contraband recovery by race, age, and gender, as well as observed hit rates and search disparities across police districts.\nInferential Analysis → Logistic regressions for binary outcomes (arrest, search, warning, citation) and OLS regressions for continuous outcomes (hit and search rates).\nControl Variables → Models adjust for individual characteristics (age, gender) and district-level arrest rates, including fixed effects for stop year, month, and district.\nStratified Analysis → Results stratified by stop type—proactive versus investigative—with focused examination of marijuana-related stops."
+  },
+  {
+    "objectID": "about.html#key-findings",
+    "href": "about.html#key-findings",
+    "title": "What Determines Selective Enforcement? An Analysis of Race and Police Stops",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nRacial search disparities are statistically significant and persistent across both investigative and proactive stops, with Black individuals searched at higher rates than White individuals even after adjusting for population size.\nBlack individuals face the highest search rates in both investigative and drug-related stops, but not in marijuana-specific stops, with narrow margin of error bars indicating consistent racial disparities in policing practices.\nBlack individuals experience statistically significant higher search and arrest rates than White individuals in both investigative and proactive stops, shown through regression coefficient analysis.\nSearch rates are highest for Black individuals, yet hit rates remain similar across groups, suggesting disproportionate searches without added public safety benefit and potential inefficiency in resource allocation."
+  },
+  {
+    "objectID": "about.html#limitations",
+    "href": "about.html#limitations",
+    "title": "What Determines Selective Enforcement? An Analysis of Race and Police Stops",
+    "section": "Limitations",
+    "text": "Limitations\nSmall sample size for stops related to marijuana charges, specifically for public consumption, which limits statistical power and reduces confidence in marijuana-specific findings.\nLack of geographic detail from the public dataset prevents neighborhood-level analysis of disparities across smaller spatial units within districts.\nLimited ability to determine officer intent or situational factors influencing decisions, which constrains causal interpretation of observed patterns."
+  },
+  {
+    "objectID": "about.html#ethical-considerations",
+    "href": "about.html#ethical-considerations",
+    "title": "What Determines Selective Enforcement? An Analysis of Race and Police Stops",
+    "section": "Ethical Considerations",
+    "text": "Ethical Considerations\nThis research navigates complex ethical terrain, recognizing the limitations of statistical analyses in establishing intent while identifying potential biases in policing. Our findings aim to inform policy discussions rather than making definitive claims about discriminatory practices, acknowledging the complex factors underlying observed disparities."
+  },
+  {
+    "objectID": "about.html#future-directions",
+    "href": "about.html#future-directions",
+    "title": "What Determines Selective Enforcement? An Analysis of Race and Police Stops",
+    "section": "Future Directions",
+    "text": "Future Directions\nIncorporate spatial lag and error models to identify geographic clustering of racial disparities and assess spatial dependence across districts.\nApply difference-in-differences and event study designs to examine how disparities shift following major policy changes or external shocks.\nUse predictive modeling to detect unexplained racial gaps, enabling real-time disparity audits and bias detection through machine learning approaches."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Jasmine Jia’s Portfolio",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "👋 Hello! I’m Jasmine Jia, a data scientist and policy researcher dedicated to using data science and quantitative analysis to address complex social and policy challenges.\nI am currently pursuing an M.S. in Data Science for Public Policy at the McCourt School of Public Policy, Georgetown University, with an expected graduation in May 2025. I hold a B.S. in Economics and Applied Statistics from the University of Michigan - Ann Arbor.\nMy expertise lies in machine learning, statistical modeling, and policy analysis, applying R, Python, SQL, and AWS Cloud computing to extract meaningful insights from data and drive evidence-based decision-making in public policy.\nAs a health data scientist Working extensively with clinical and claims data, I’ve developed specialized skills in analyzing CPT and ICD10CM codes to uncover healthcare delivery patterns and identify disparities in access to care. My projects incorporate sophisticated data pipeline engineering, network analysis of provider-payer relationships, and predictive modeling using ensemble methods with cross-validation.\nThis portfolio showcases my research, projects, and publications, demonstrating my ability to apply data-driven approaches to real-world policy issues.\n📄 View and Download My Resume (PDF):\n📥 Jasmine Jia’s Resume\n\n💼 Connect on LinkedIn | 📊 GitHub"
+  },
+  {
+    "objectID": "showcase.html",
+    "href": "showcase.html",
+    "title": "Agricultural Pesticide Use and Effects on Migrant Farmworker’s Health",
+    "section": "",
+    "text": "This study, conducted by MDI Scholars in collaboration with the Lawyers’ Committee for Civil Rights Under Law, investigates the health risks faced by non-U.S. citizen farmworkers, particularly their exposure to glyphosate (a widely used pesticide) and its potential link to non-Hodgkin’s Lymphoma (NHL). Many migrant and undocumented farmworkers were previously excluded from legal settlements addressing the harms of pesticide exposure. The research aims to identify counties with high concentrations of these farmworkers and elevated NHL rates, providing a data-driven foundation for targeted outreach and legal support.\n\nmore information can be found here"
+  },
+  {
+    "objectID": "showcase.html#overview",
+    "href": "showcase.html#overview",
+    "title": "Agricultural Pesticide Use and Effects on Migrant Farmworker’s Health",
+    "section": "",
+    "text": "This study, conducted by MDI Scholars in collaboration with the Lawyers’ Committee for Civil Rights Under Law, investigates the health risks faced by non-U.S. citizen farmworkers, particularly their exposure to glyphosate (a widely used pesticide) and its potential link to non-Hodgkin’s Lymphoma (NHL). Many migrant and undocumented farmworkers were previously excluded from legal settlements addressing the harms of pesticide exposure. The research aims to identify counties with high concentrations of these farmworkers and elevated NHL rates, providing a data-driven foundation for targeted outreach and legal support.\n\nmore information can be found here"
   },
   {
     "objectID": "RD_education_policy.html",
@@ -84,25 +140,46 @@
     "text": "Policy Implications\nEconomic Returns to Education → Justifies public investment in education based on measurable increases in earnings.\nSocial and Demographic Impact → Schooling affects family formation trends, influencing housing, welfare, and healthcare policies*\nReducing Inequality → Ensuring equal access to education promotes social mobility and reduces long-term disparities\n📄 View the Presentation Slides:\nRD_Presentation\n📄 View the Full Rerport:\nRD_report\n📄 View the Code:\nRD_code\n."
   },
   {
-    "objectID": "showcase.html",
-    "href": "showcase.html",
-    "title": "Agricultural Pesticide Use and Effects on Migrant Farmworker’s Health",
+    "objectID": "adaptive.html",
+    "href": "adaptive.html",
+    "title": "Development of an ADHD Assessment System Using Computerized Adaptive Testing",
     "section": "",
-    "text": "This study, conducted by MDI Scholars in collaboration with the Lawyers’ Committee for Civil Rights Under Law, investigates the health risks faced by non-U.S. citizen farmworkers, particularly their exposure to glyphosate (a widely used pesticide) and its potential link to non-Hodgkin’s Lymphoma (NHL). Many migrant and undocumented farmworkers were previously excluded from legal settlements addressing the harms of pesticide exposure. The research aims to identify counties with high concentrations of these farmworkers and elevated NHL rates, providing a data-driven foundation for targeted outreach and legal support.\n\nmore information can be found here"
+    "text": "This project develops a comprehensive Computerized Adaptive Testing (CAT) system for assessing Attention-Deficit/Hyperactivity Disorder (ADHD) symptoms in adults. Using Item Response Theory (IRT) and adaptive testing algorithms, we created an assessment tool that reduces testing time by 70-80% while maintaining high measurement precision. Our approach effectively addresses limitations of conventional ADHD assessments, particularly respondent fatigue and diminished engagement, which are especially relevant when assessing attention-related disorders."
   },
   {
-    "objectID": "showcase.html#overview",
-    "href": "showcase.html#overview",
-    "title": "Agricultural Pesticide Use and Effects on Migrant Farmworker’s Health",
+    "objectID": "adaptive.html#overview",
+    "href": "adaptive.html#overview",
+    "title": "Development of an ADHD Assessment System Using Computerized Adaptive Testing",
     "section": "",
-    "text": "This study, conducted by MDI Scholars in collaboration with the Lawyers’ Committee for Civil Rights Under Law, investigates the health risks faced by non-U.S. citizen farmworkers, particularly their exposure to glyphosate (a widely used pesticide) and its potential link to non-Hodgkin’s Lymphoma (NHL). Many migrant and undocumented farmworkers were previously excluded from legal settlements addressing the harms of pesticide exposure. The research aims to identify counties with high concentrations of these farmworkers and elevated NHL rates, providing a data-driven foundation for targeted outreach and legal support.\n\nmore information can be found here"
+    "text": "This project develops a comprehensive Computerized Adaptive Testing (CAT) system for assessing Attention-Deficit/Hyperactivity Disorder (ADHD) symptoms in adults. Using Item Response Theory (IRT) and adaptive testing algorithms, we created an assessment tool that reduces testing time by 70-80% while maintaining high measurement precision. Our approach effectively addresses limitations of conventional ADHD assessments, particularly respondent fatigue and diminished engagement, which are especially relevant when assessing attention-related disorders."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Jasmine Jia’s Portfolio",
-    "section": "",
-    "text": "👋 Hello! I’m Jasmine Jia, a data scientist and policy researcher dedicated to using data science and quantitative analysis to address complex social and policy challenges.\nI am currently pursuing an M.S. in Data Science for Public Policy at the McCourt School of Public Policy, Georgetown University, with an expected graduation in May 2025. I hold a B.S. in Economics and Applied Statistics from the University of Michigan - Ann Arbor.\nMy expertise lies in machine learning, statistical modeling, and policy analysis, applying R, Python, SQL, and AWS Cloud computing to extract meaningful insights from data and drive evidence-based decision-making in public policy.\nThis portfolio showcases my research, projects, and publications, demonstrating my ability to apply data-driven approaches to real-world policy issues.\n📄 View and Download My Resume (PDF):\n📥 Jasmine Jia’s Resume\n\n💼 Connect on LinkedIn | 📊 GitHub"
+    "objectID": "adaptive.html#methodology",
+    "href": "adaptive.html#methodology",
+    "title": "Development of an ADHD Assessment System Using Computerized Adaptive Testing",
+    "section": "Methodology",
+    "text": "Methodology\nItem Pool Development → Creation of 30 ADHD assessment items stratified across three distinct difficulty levels (10 easy, 10 medium, 10 difficult) to provide optimal measurement across the symptom spectrum.\nResponse Data Simulation → Generation of 500 synthetic respondent profiles with latent trait values (theta) drawn from a standard normal distribution using the 2-Parameter Logistic (2PL) model.\nTheta Estimation → Implementation of Expected a Posteriori (EAP) estimation method that combines the likelihood of observed response patterns with prior distribution to compute posterior theta estimates.\nStopping Rules → Development of a three-criteria system including minimum test length (5 items), maximum test length (10 items), and precision threshold (SE &lt; 0.3) for reliability coefficient of approximately 0.91."
+  },
+  {
+    "objectID": "adaptive.html#key-findings",
+    "href": "adaptive.html#key-findings",
+    "title": "Development of an ADHD Assessment System Using Computerized Adaptive Testing",
+    "section": "Key Findings",
+    "text": "Key Findings\nThe CAT system demonstrates an average test length of precisely 6 items across representative respondents, representing an impressive 80% reduction from the complete 30-item pool.\nThe substantial reduction in test length directly translates to approximately 8-10 minutes of time saved per assessment administration, benefiting both time-constrained clinical applications and large-scale research implementations.\nStandard errors achieved by the CAT system are consistently comparable to what would be expected from administering the full-length assessment, demonstrating that the adaptive approach enhances measurement precision through optimal item targeting.\nThe system effectively balances efficiency and accuracy across a wide range of symptom levels, with high measurement precision maintained throughout the assessment process."
+  },
+  {
+    "objectID": "adaptive.html#limitations",
+    "href": "adaptive.html#limitations",
+    "title": "Development of an ADHD Assessment System Using Computerized Adaptive Testing",
+    "section": "Limitations",
+    "text": "Limitations\nThe use of binary scoring (0/1) instead of the full Likert scale (1-5) for IRT calibration presents information loss regarding symptom intensity and frequency that would have been captured by the full rating scale.\nThe study utilized simulated data rather than real clinical data for model development and validation, potentially failing to capture important real-world factors such as comorbidities and cultural differences.\nNo exposure control was implemented to prevent overuse of certain items, which may lead to testing fatigue, practice effects, or compromising test security over repeated administrations."
+  },
+  {
+    "objectID": "adaptive.html#future-directions",
+    "href": "adaptive.html#future-directions",
+    "title": "Development of an ADHD Assessment System Using Computerized Adaptive Testing",
+    "section": "Future Directions",
+    "text": "Future Directions\nImplementation of Graded Response Model (GRM) to more accurately capture the full spectrum of ADHD by utilizing the complete Likert scale (1-5), allowing for better discrimination between different levels of symptom severity.\nDevelopment of differentiated simulation for ADHD subtypes (inattentive, hyperactive/impulsive, and combined presentations) to better capture distinct symptom categories and enable more targeted assessment.\nIntegration of the Sympson-Hetter method for controlling item exposure rates, a probabilistic approach that would prevent overexposure of certain items while maintaining measurement precision.\nExplore Our ADHD Assessment System:\nExperience the Interactive CAT System\n\n\nView Alternative Implementation of CAT System"
   },
   {
     "objectID": "network_analysis.html",
