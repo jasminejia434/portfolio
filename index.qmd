@@ -1,0 +1,27 @@
+---
+title: "Welcome to Jasmine Jia's  Portfolio"
+format: html
+---
+
+
+![](headshot.JPG){width=150px}
+
+
+👋 Hello! I'm Jasmine Jia, a data scientist and policy researcher dedicated to using  data science and quantitative analysis to address complex social and policy challenges.
+
+I am currently pursuing an M.S. in Data Science for Public Policy at the McCourt School of Public Policy, Georgetown University, with an expected graduation in May 2025. I hold a B.S. in Economics and Applied Statistics from the University of Michigan - Ann Arbor.
+
+ My expertise lies in machine learning, statistical modeling, and policy analysis, applying R, Python, SQL, and AWS Cloud computing to extract meaningful insights from data and drive evidence-based decision-making in public policy.
+ 
+As a health data scientist Working extensively with clinical and claims data, I've developed specialized skills in analyzing CPT and ICD10CM codes to uncover healthcare delivery patterns and identify disparities in access to care. My projects incorporate sophisticated data pipeline engineering, network analysis of provider-payer relationships, and predictive modeling using ensemble methods with cross-validation.
+
+ This portfolio showcases my research, projects, and publications, demonstrating my ability to apply data-driven approaches to real-world policy issues.
+
+
+📄 **View and Download My Resume (PDF):**  
+📥 [Jasmine Jia's Resume](Jasmine_Jia_Resume_Final.pdf)  
+
+
+
+---
+ [💼 Connect on LinkedIn](https://www.linkedin.com/in/ziwen-jasmine-jia-9a0357197/a) | [📊 GitHub](https://github.com/jasminejia434)

@@ -1,0 +1,44 @@
+---
+title: "What Determines Selective Enforcement? An Analysis of Race and Police Stops"
+author: "Jasmine Jia, MS Data Science for Public Policy, 2025"
+editor: visual
+---
+
+## ![](_MDIScholars_Jia_ResearchPosterSpring2025.png)
+
+## Overview
+
+This research investigates racial disparities in police stops in Washington, D.C., with a focus on identifying potential patterns of selective enforcement against racial minorities. Using **statistical analysis and data visualization**, the project examines how **race and stop type** influence outcomes including searches, arrests, and contraband recovery. The findings provide insights into enforcement disparities and their implications for evidence-based policy discussions and equitable approaches to policing in the nation's capital.
+
+## Methodology
+
+**Descriptive Statistics** → Cross-tabulations of stop reasons, enforcement outcomes, and contraband recovery by race, age, and gender, as well as observed hit rates and search disparities across police districts.\
+**Inferential Analysis** → Logistic regressions for binary outcomes (arrest, search, warning, citation) and OLS regressions for continuous outcomes (hit and search rates).\
+**Control Variables** → Models adjust for individual characteristics (age, gender) and district-level arrest rates, including fixed effects for stop year, month, and district.\
+**Stratified Analysis** → Results stratified by stop type---proactive versus investigative---with focused examination of marijuana-related stops.
+
+## Key Findings
+
+-   Racial search disparities are **statistically significant and persistent** across both investigative and proactive stops, with Black individuals searched at higher rates than White individuals even after adjusting for population size.
+
+-   Black individuals face the highest search rates in both investigative and drug-related stops, but not in marijuana-specific stops, with **narrow margin of error bars** indicating consistent racial disparities in policing practices.
+
+-   Black individuals experience **statistically significant higher search and arrest rates** than White individuals in both investigative and proactive stops, shown through regression coefficient analysis.
+
+-   Search rates are highest for Black individuals, yet hit rates remain similar across groups, suggesting **disproportionate searches without added public safety benefit** and potential inefficiency in resource allocation.
+
+## Limitations
+
+Small sample size for stops related to marijuana charges, specifically for public consumption, which **limits statistical power** and reduces confidence in marijuana-specific findings.\
+Lack of geographic detail from the public dataset prevents **neighborhood-level analysis** of disparities across smaller spatial units within districts.\
+Limited ability to determine officer intent or situational factors influencing decisions, which constrains **causal interpretation** of observed patterns.
+
+## Ethical Considerations
+
+This research navigates complex ethical terrain, recognizing the **limitations of statistical analyses** in establishing intent while identifying potential biases in policing. Our findings aim to inform policy discussions rather than making definitive claims about discriminatory practices, acknowledging the complex factors underlying observed disparities.
+
+## Future Directions
+
+Incorporate spatial lag and error models to identify **geographic clustering of racial disparities** and assess spatial dependence across districts.\
+Apply difference-in-differences and event study designs to examine how disparities shift following **major policy changes or external shocks**.\
+Use predictive modeling to detect unexplained racial gaps, enabling **real-time disparity audits and bias detection** through machine learning approaches.

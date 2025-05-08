@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Ziwen (Jasmine) Jia's Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Projects
+        menu:
+          - href: gis_project.qmd
+            text: GIS Spatial Regression on Urban Greenspace
+          - href: adaptive.qmd
+            text: Computerized Adaptive Testing ADHD Assessment
+          - href: network_analysis.qmd
+            text: Healthcare Data Network Analysis
+          - href: RD_education_policy.qmd
+            text: Statistical Analysis of Compulsory Schooling
+          - href: homelessness_policy.qmd
+            text: Machine Learning for Predicting Homelessness
+      - text: Publications & Showcase
+        menu:
+          - href: showcase.qmd
+            text: Farmworker Pesticide Exposure & Health Risks
+          - href: about.qmd
+            text: What Determines Selective Enforcement?
+          - href: in_progress.qmd
+            text: Paper and Project in Progress
+  page-footer: "© 2025 Jasmine Jia | Built with Quarto"
+
+format:
+  html:
+    theme: flatly
+    toc: true

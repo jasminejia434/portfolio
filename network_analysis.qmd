@@ -1,0 +1,29 @@
+---
+title: Healthcare Network Analysis - Analyzing Provider Network Structures and Price Transparency
+editor: visual
+---
+
+## **Overview**  
+This project explores **provider network structures** and price transparency in healthcare, focusing on the relationships between providers, networks, and healthcare costs. Using **graph theory, network analysis, and machine learning**, the study identifies key patterns in provider affiliations, network fragmentation, and pricing disparities across different regions and provider types.  
+
+## **Methodology**  
+ **Network Analysis** → Constructing provider affiliation networks using National Provider Identifier (NPI) and Tax Identification Number (TIN) connections.  
+ **Graph Theory & Centrality Measures** → Identifying highly connected providers and key influencers in the network*  
+ **Price Transparency Analysis** → Analyzing variations in healthcare costs and reimbursement rates across different provider networks.  
+
+## **Key Findings**  
+- **Highly centralized providers** play a significant role in **negotiating reimbursement rates**, leading to *ricing disparities in certain healthcare markets.  
+- Network fragmentation in certain regions results in **restricted patient access** and **higher costs for out-of-network care**.  
+- Machine learning clustering techniques reveal distinct patterns in provider group pricing, helping to identify potential **pricing inefficiencies and monopolistic behaviors**.  
+
+## **Policy & Industry Implications**  
+ **Healthcare Access & Pricing** → Understanding network fragmentation can inform policy interventions** to **increase price transparency and affordability.  
+ **Hospital & Insurer Negotiations** → Insights from centrality analysis can help regulators and stakeholders evaluate provider market power.  
+
+
+ [Visit the GIS Project Website](https://jasminejia434.github.io/ds3_provider_network_analysis/)
+```{=html}
+<iframe src="https://jasminejia434.github.io/ds3_provider_network_analysis/" width="100%" height="600px"></iframe>
+```
+
+ *Full Code & Data Analysis:* [ View Here](https://github.com/jasminejia434/ds3_provider_network_analysis/)  

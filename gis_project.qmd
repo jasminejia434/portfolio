@@ -1,0 +1,30 @@
+---
+title: "GIS Project: Greenspace Accessibility and Socioeconomic Inequality in Urban Areas"
+editor: visual
+---
+## Overview
+
+This study investigates the relationship between greenspace accessibility and socioeconomic inequality in urban areas, focusing on Washington, D.C. Using **geospatial and econometric analyses**, the project examines how **income levels** and poverty rates influence access to **urban greenspaces** such as parks and recreation areas. The findings provide insights into spatial disparities in greenspace distribution and their implications for environmental justice and urban planning.
+
+## Methodology
+
+ **Statistical and Spatial Analysis** → Regression models to analyze the impact of income and poverty rates on greenspace availability.  
+ **GIS & Spatial Accessibility** → Measuring proximity to parks using centroid-based distance calculations.  
+ **Hypothesis Testing** → Moran’s I and Monte Carlo simulations to test for spatial clustering of greenspace inequality.  
+
+## Key Findings
+
+- Wealthier neighborhoods tend to have **larger and higher-quality green spaces**, while lower-income communities often have **limited access** to greenspace.  
+- Poverty rate and greenspace percentage show an **unexpected positive correlation**, suggesting that some low-income areas have green spaces, but accessibility and usability may still be limited depending on the districts.  
+- Spatial clustering of poverty rates indicates **systemic inequities in urban planning**, with disadvantaged communities facing **higher barriers to greenspace access**.  
+- Local Moran’s I analysis confirms significant spatial autocorrelation, meaning poverty and greenspace disparities are **not randomly distributed** but concentrated in specific neighborhoods.  
+
+ **Explore My GIS Project:**  
+ [Visit the GIS Project Website](https://jasminejia434.github.io/gisproject/)
+
+```{=html}
+<iframe src="https://jasminejia434.github.io/gisproject/" width="100%" height="600px"></iframe>
+```
+
+
+ [Read the code and documentation on my Github](https://github.com/jasminejia434/gisproject)

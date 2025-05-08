@@ -1,0 +1,41 @@
+---
+title: "A Multidimensional Study on the Determinants of Homelessness in Urban America"
+editor: visual
+---
+
+## **Overview**  
+
+This study examines the socio-economic and housing-related factors influencing homelessness across urban areas in the United States. Using Point-in-Time (PIT) Count and Housing Inventory Count (HIC) data, combined with economic indicators from the U.S. Census Bureau and Bureau of Labor Statistics, the analysis identifies how income levels, unemployment rates, housing affordability, and racial demographics impact homelessness rates.  
+
+## **Methodology**  
+
+This study employs a multi-faceted analytical approach, integrating traditional econometric methods with **machine learning techniques to enhance predictive accuracy**. Data sources include federal homelessness counts, economic indicators, and housing statistics, allowing for a comprehensive evaluation of the determinants of homelessness in urban settings.  
+
+The analysis begins with **Linear Regression** as a baseline model to establish fundamental relationships between key socio-economic factors and homelessness rates. However, homelessness is a highly complex and non-linear issue, which necessitates more sophisticated predictive modeling. To address this, the study employs **Random Forest Regression and Gradient Boosting Machines (GBM)**, which are tree-based machine learning models capable of detecting complex interactions between variables.  
+
+To ensure the validity and robustness of the results, **cross-validation techniques** were applied to prevent overfitting, and **feature importance scores** were analyzed to determine the most influential variables affecting homelessness rates. The final models were evaluated using R² scores and Mean Squared Error (MSE) to assess their predictive performance.  
+
+## **Key Findings**  
+
+- **Economic instability is a major driver of homelessness.** Low median household income and high unemployment rates strongly correlate with higher homelessness rates.  
+- **Housing affordability remains a key barrier.** Areas with high median home values tend to have higher rates of homelessness, reinforcing the need for more affordable housing options.  
+- **Supportive housing resources have a significant impact.** Regions with greater availability of permanent supportive housing tend to have lower homelessness rates, indicating that housing-first approaches are effective.  
+- **Racial disparities persist in homelessness trends.** Black populations are disproportionately affecte, underscoring the need for policies that address systemic inequities in housing access.  
+- **Machine learning outperforms traditional models.** Random Forest and GBM models provided more accurate predictions and uncovered complex relationships that were not detectable with linear regression.  
+
+## **Policy Implications**  
+
+Addressing homelessness effectively requires a comprehensive and multi-pronged policy approach. Based on the findings of this study, policymakers should consider the following interventions:  
+
+- **Expand permanent supportive housing programs.** Increased investment in long-term housing solutions has been shown to reduce homelessness rates and improve housing stability.  
+- **Implement economic support initiatives.** Programs focused on job training, wage subsidies, and rental assistance can help prevent homelessness by increasing economic security for at-risk individuals.  
+- **Address systemic racial disparities in housing.** Targeted anti-discrimination policies and equitable urban planning are necessary to mitigate the disproportionate impact of homelessness on marginalized communities.  
+- **Enhance data collection and real-time tracking.** Integrating real-time homelessness tracking systems with machine learning-driven predictive modeling can improve early intervention efforts and allow for more adaptive policymaking.  
+
+**[View the Presentation Slides](homeless_presentation.pdf)**  
+
+**[View the Full Report](homeless_paper.pdf)**  
+
+**[View the Code](homeless_code.html)**  
+
+

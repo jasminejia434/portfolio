@@ -1,0 +1,41 @@
+---
+title: "The Long-Term Impact of Compulsory Schooling: Evidence from a Regression Discontinuity Design"
+editor: visual
+---
+
+
+## **Overview**  
+
+This study investigates the **causal effects of compulsory schooling requirements** on long-term outcomes, including educational attainment, earnings, marital status, and parental status. Using a *Regression Discontinuity Design (RDD)*, the analysis leverages a policy change implemented on September 1, 1951, which required students to remain in school until at least age 16.  
+
+By examining the impact of this natural experiment, the findings provide policy-relevant insights into the long-term benefits of extending compulsory education, informing decisions on public investment in education, labor market policies, and social mobility initiatives.  
+
+## **Methodology**  
+
+ **Regression Discontinuity Design (RDD)** → Fuzzy RDD approach leveraging the 1951 compulsory schooling reform.  
+ **Instrumental Variables (IV)** → Using policy cutoff birthdate to estimate exogenous effects of additional schooling.  
+
+
+## **Key Findings** 
+
+- Higher educational attainment leads to increased earnings. Individuals who remained in school due to the policy experienced a **13.4% increase in earnings** at age 45.  
+- Compulsory schooling impacts marriage rates. Those who stayed in school were **15.4% more likely to be married** at age 45.  
+- Schooling influences family formation. Individuals who completed compulsory schooling were **19.4% more likely to have children** by age 45.  
+- The Regression Discontinuity Design (RDD) is validated. A **strong first-stage relationship** confirms that the **policy effectively increased schooling years**, passing the inclusion condition for IV estimation.  
+- Permutation testing confirms robustness.Simulated treatment assignments centered on zero, while the observed effect of schooling remained **statistically significant**, ruling out random chance.  
+
+## **Policy Implications**  
+
+ **Economic Returns to Education** → Justifies public investment in education based on measurable increases in earnings.  
+ **Social and Demographic Impact** → Schooling affects family formation trends, influencing housing, welfare, and healthcare policies*  
+ **Reducing Inequality** → Ensuring equal access to education promotes social mobility and reduces long-term disparities
+ 
+ 📄 **View the Presentation Slides:**  
+ [RD_Presentation](RD_Presentation.pdf)  
+
+📄 **View the Full Rerport:**  
+ [RD_report](Education_policy_RD.pdf)  
+ 
+ 📄 **View the Code:**  
+ [RD_code](RD_code.html)  
+.  

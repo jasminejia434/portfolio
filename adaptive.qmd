@@ -1,0 +1,37 @@
+---
+title: "Development of an ADHD Assessment System Using Computerized Adaptive Testing"
+author: "Jasmine Jia"
+editor: visual
+---
+
+## Overview
+This project develops a comprehensive Computerized Adaptive Testing (CAT) system for assessing Attention-Deficit/Hyperactivity Disorder (ADHD) symptoms in adults. Using **Item Response Theory (IRT)** and **adaptive testing algorithms**, we created an assessment tool that reduces testing time by **70-80%** while maintaining high measurement precision. Our approach effectively addresses limitations of conventional ADHD assessments, particularly **respondent fatigue** and **diminished engagement**, which are especially relevant when assessing attention-related disorders.
+
+## Methodology
+**Item Pool Development** → Creation of 30 ADHD assessment items stratified across three distinct difficulty levels (10 easy, 10 medium, 10 difficult) to provide optimal measurement across the symptom spectrum.\
+**Response Data Simulation** → Generation of 500 synthetic respondent profiles with latent trait values (theta) drawn from a standard normal distribution using the 2-Parameter Logistic (2PL) model.\
+**Theta Estimation** → Implementation of Expected a Posteriori (EAP) estimation method that combines the likelihood of observed response patterns with prior distribution to compute posterior theta estimates.\
+**Stopping Rules** → Development of a three-criteria system including minimum test length (5 items), maximum test length (10 items), and precision threshold (SE < 0.3) for reliability coefficient of approximately 0.91.
+
+## Key Findings
+The CAT system demonstrates an average test length of **precisely 6 items** across representative respondents, representing an impressive **80% reduction** from the complete 30-item pool.\
+The substantial reduction in test length directly translates to approximately **8-10 minutes of time saved** per assessment administration, benefiting both time-constrained clinical applications and large-scale research implementations.\
+Standard errors achieved by the CAT system are **consistently comparable** to what would be expected from administering the full-length assessment, demonstrating that the adaptive approach enhances measurement precision through **optimal item targeting**.\
+The system effectively balances efficiency and accuracy across a wide range of symptom levels, with **high measurement precision** maintained throughout the assessment process.
+
+## Limitations
+The use of binary scoring (0/1) instead of the full Likert scale (1-5) for IRT calibration presents **information loss** regarding symptom intensity and frequency that would have been captured by the full rating scale.\
+The study utilized **simulated data** rather than real clinical data for model development and validation, potentially failing to capture important real-world factors such as comorbidities and cultural differences.\
+No **exposure control** was implemented to prevent overuse of certain items, which may lead to testing fatigue, practice effects, or compromising test security over repeated administrations.
+
+## Future Directions
+Implementation of **Graded Response Model (GRM)** to more accurately capture the full spectrum of ADHD by utilizing the complete Likert scale (1-5), allowing for better discrimination between different levels of symptom severity.\
+Development of **differentiated simulation for ADHD subtypes** (inattentive, hyperactive/impulsive, and combined presentations) to better capture distinct symptom categories and enable more targeted assessment.\
+Integration of the **Sympson-Hetter method** for controlling item exposure rates, a probabilistic approach that would prevent overexposure of certain items while maintaining measurement precision.
+
+**Explore Our ADHD Assessment System:**\
+[Experience the Interactive CAT System](https://jasminejia434.shinyapps.io/File/)\
+```{=html}
+<iframe src="https://jasminejia434.shinyapps.io/File/" width="100%" height="600px"></iframe>
+```
+[View Alternative Implementation of CAT System](https://yuhanma.shinyapps.io/Computerized_Adaptive_Testing_ADHD/)

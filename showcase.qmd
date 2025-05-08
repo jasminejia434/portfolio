@@ -1,0 +1,12 @@
+---
+title: "Agricultural Pesticide Use and Effects on Migrant Farmworker's Health"
+editor: visual
+---
+
+## Overview
+
+This study, conducted by MDI Scholars in collaboration with the Lawyers' Committee for Civil Rights Under Law, investigates the health risks faced by non-U.S. citizen farmworkers, particularly their exposure to glyphosate (a widely used pesticide) and its potential link to non-Hodgkin's Lymphoma (NHL). Many migrant and undocumented farmworkers were previously excluded from legal settlements addressing the harms of pesticide exposure. The research aims to identify counties with high concentrations of these farmworkers and elevated NHL rates, providing a data-driven foundation for targeted outreach and legal support.
+
+![](showcase.png)
+
+[more information can be found here](https://mdi.georgetown.edu/events/showcase-fall2024/)
