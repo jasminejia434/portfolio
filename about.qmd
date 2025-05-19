@@ -3,8 +3,9 @@ title: "What Determines Selective Enforcement? An Analysis of Race and Police St
 author: "Jasmine Jia, MS Data Science for Public Policy, 2025"
 editor: visual
 ---
+ **View and Download the Poster (PDF):**  
+📥 [What Determines Selective Enforcement? An Analysis of Race and Police Stops](_MDIScholars_Jia_ResearchPosterSpring2025.png)  
 
-## ![](_MDIScholars_Jia_ResearchPosterSpring2025.png)
 
 ## Overview
 
